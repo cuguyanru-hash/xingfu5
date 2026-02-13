@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>川廣建設｜幸福家5期｜工程進度專區</title>
+
+<style>
+body{
+    margin:0;
+    font-family: "Microsoft JhengHei", sans-serif;
+    background:#ffffff;
+}
+
+/* 首頁 */
+.hero{
+    background:#c40018;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero img{
+    max-width:350px;
+    width:80%;
+    margin-top:20px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin:20px 0;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 30px;
+    background:#ffd400;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+/* 進度區 */
+.progress-section{
+    padding:60px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.progress-bar{
+    background:#eee;
+    border-radius:30px;
+    overflow:hidden;
+    margin:20px 0;
+}
+
+.progress-fill{
+    height:25px;
+    background:#c40018;
+    width:25%;
+}
+
+.category{
+    margin-top:40px;
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.category h3{
+    margin-top:0;
+}
+
+.done{
+    color:green;
+}
+
+.doing{
+    color:orange;
+}
+
+.update{
+    margin-top:10px;
+    font-size:14px;
+    color:#666;
+}
+</style>
+
+</head>
+<body>
+
+<!-- 首頁 -->
+<section class="hero">
+    <h1>幸福家 NO.5</h1>
+    <p>川廣建設｜幸福家5期</p>
+    <p>開工日：115/01/14 ｜ 預計完工：117/01/14</p>
+
+    <!-- 這裡放你的插畫圖 -->
+    <img src="hero.jpg" alt="幸福家主視覺">
+
+    <br>
+    <a href="#progress" class="btn">查看工程進度</a>
+</section>
+
+
+<!-- 工程進度頁 -->
+<section id="progress" class="progress-section">
+    <h2>工程進度專區</h2>
+    <div class="update">最後更新日期：115/02/13</div>
+
+    <h3>整體工程進度：25%</h3>
+    <div class="progress-bar">
+        <div class="progress-fill"></div>
+    </div>
+
+    <!-- 基礎工程 -->
+    <div class="category">
+        <h3>基礎工程（80%）</h3>
+        <p class="done">✔ 開挖（完成）</p>
+        <p class="done">✔ 大底（完成）</p>
+        <p class="done">✔ 地樑（完成）</p>
+        <p class="done">✔ 回填土（完成）</p>
+        <p class="doing">◐ 1F版（施工中）</p>
+        <p class="doing">◐ 汙水設備（施工中）</p>
+    </div>
+
+    <!-- 結構工程 -->
+    <div class="category">
+        <h3>結構工程（0%）</h3>
+        <p>1F</p>
+        <p>2F</p>
+        <p>3F</p>
+        <p>RF</p>
+    </div>
+
+    <!-- 裝修工程 -->
+    <div class="category">
+        <h3>裝修工程（0%）</h3>
+        <p>尚未開始</p>
+    </div>
+
+    <!-- 牌樓工程 -->
+    <div class="category">
+        <h3>牌樓工程（40%）</h3>
+        <p class="done">✔ 基礎（完成）</p>
+        <p class="doing">◐ 主體（施工中）</p>
+    </div>
+
+</section>
+
+</body>
+</html>
